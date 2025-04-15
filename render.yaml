@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: j-j-tour-and-travels
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    autoDeploy: false
